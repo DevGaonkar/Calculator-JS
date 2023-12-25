@@ -4,11 +4,13 @@ body {
       display: flex;
       justify-content: center;
       align-items: center;
+      background-image: linear-gradient(skyblue,lightyellow, lightgreen);
+      font-family: 'Roboto', sans-serif;
 }
 
 #outer-cont {
     border: 2px solid black;
-    height: 80vh;
+    height: 85vh;
     width: 60vh;
     border-radius: 3%;
     background-color: darkgrey;
@@ -22,13 +24,17 @@ body {
     margin-left: 4.5%;
     margin-bottom: 2%;
     background-color: #8f9da6;
+    font-size: 80px;
+    text-align: right;
 }
 
 .buttons {
     border: 1px solid black;
-    height: 12%;
-    width: 20%;
+    height: 13%;
+    width: 19%;
     margin: 2%;
-    font-size: large;
+    font-size: x-large;
     border-radius: 20%;
+    /* display: inline-block;*/
+    margin-left: 12px; 
 }
